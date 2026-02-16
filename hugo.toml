@@ -1,0 +1,15 @@
+baseURL = 'https://dfir-ahmed.me/' # ضع دومينك هنا لاحقاً
+languageCode = 'en-us'
+title = 'Ahmed Alwedyan | Cybersecurity Portfolio'
+theme = 'PaperMod'
+
+[params]
+    defaultTheme = "dark" # لأننا هكرز :)
+    displayFullContent = false
+    showShareButtons = true
+    
+    [params.profileMode]
+        enabled = true
+        title = "Ahmed Alwedyan"
+        subtitle = "SOC Analyst | DFIR | CTF Player&Author"
+        imageUrl = "https://github.com/Ahmad-Alwedyan.png" 
