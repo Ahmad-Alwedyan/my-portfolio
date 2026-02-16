@@ -1,52 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Ahmed Alwedyan | DFIR & Blue Team</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmed Alwedyan</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<canvas id="bg"></canvas>
+<div class="bg"></div>
 
-<div class="container">
-    <header class="glass fade-in">
-      <img src="assets/images/profile.jpg" class="profile-img" alt="Ahmed">
-      <h1>Ahmed Alwedyan</h1>
-      <p class="typing-container"><span class="typing"></span><span class="cursor">|</span></p>
+<nav class="navbar">
+  <div>Ahmed Alwedyan</div>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="writeups.html">Writeups</a>
+    <a href="achievements.html">Achievements</a>
+    <a href="cv.html">CV</a>
+  </div>
+</nav>
 
-      <div class="buttons">
-        <a href="mailto:awedyan838@gmail.com" class="btn">Email Me</a>
-        <a href="https://github.com/Ahmad-Alwedyan" target="_blank" class="btn">GitHub</a>
-      </div>
-    </header>
+<section class="glass hero reveal">
+  <img src="assets/images/profile.jpg" class="profile-img">
+  <h1>Ahmed Alwedyan</h1>
+  <p>Blue Team Instructor & Digital Forensics Specialist</p>
+</section>
 
-    <section class="glass fade-in">
-      <h2>Professional Summary</h2>
-      <p>
-        Blue Team Specialist and Digital Forensics expert focused on defensive operations and incident response. 
-        Proud organizer of <strong>CYSTECH1 CTF</strong> (208+ players) and ranked in the <strong>Top 5%</strong> on TryHackMe.
-      </p>
-    </section>
+<section class="glass reveal">
+  <h2>Professional Summary</h2>
+  <p>Specialized in defensive security, DFIR, and detection engineering.</p>
+</section>
 
-    <section class="glass fade-in">
-      <h2>Core Expertise</h2>
-      <div class="grid">
-        <div class="card">SOC Operations</div>
-        <div class="card">Threat Hunting</div>
-        <div class="card">Incident Response</div>
-        <div class="card">Digital Forensics</div>
-        <div class="card">SIEM (Splunk)</div>
-        <div class="card">Malware Analysis</div>
-      </div>
-    </section>
-</div>
+<footer>© 2026 Ahmed Alwedyan</footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
