@@ -104,3 +104,26 @@ h1 { margin: 0; font-size: 2.5rem; }
 @keyframes blink {
     50% { opacity: 0; }
 }
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1; /* يضمن بقاء النجوم خلف الكلام */
+}
+
+.typing-container {
+  font-family: 'Courier New', Courier, monospace;
+  color: #00ff88;
+  font-weight: bold;
+}
+
+.cursor {
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
