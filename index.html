@@ -1,52 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Ahmed Alwedyan | DFIR & Blue Team</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmed Alwedyan | DFIR</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
 </head>
 <body>
 
-<canvas id="bg"></canvas>
+<div class="background"></div>
 
-<div class="container">
-    <header class="glass fade-in">
-      <img src="assets/images/profile.jpg" class="profile-img" alt="Ahmed">
-      <h1>Ahmed Alwedyan</h1>
-      <p class="typing-container"><span class="typing"></span><span class="cursor">|</span></p>
+<nav class="navbar glass">
+  <div class="logo">Ahmed Alwedyan</div>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="writeups.html">Writeups</a>
+    <a href="achievements.html">Achievements</a>
+    <a href="cv.html">CV</a>
+  </div>
+</nav>
 
-      <div class="buttons">
-        <a href="mailto:awedyan838@gmail.com" class="btn">Email Me</a>
-        <a href="https://github.com/Ahmad-Alwedyan" target="_blank" class="btn">GitHub</a>
-      </div>
-    </header>
+<section class="hero glass">
+  <img src="assets/images/profile.jpg" class="profile-img" alt="Ahmed">
+  <h1>Ahmed Alwedyan</h1>
+  <p class="typing"></p>
+</section>
 
-    <section class="glass fade-in">
-      <h2>Professional Summary</h2>
-      <p>
-        Blue Team Specialist and Digital Forensics expert focused on defensive operations and incident response. 
-        Proud organizer of <strong>CYSTECH1 CTF</strong> (208+ players) and ranked in the <strong>Top 5%</strong> on TryHackMe.
-      </p>
-    </section>
+<section class="glass">
+  <h2>Professional Summary</h2>
+  <p>
+    Blue Team Instructor and Digital Forensics Specialist focused on
+    incident response, threat hunting, detection engineering,
+    and defensive security architecture.
+  </p>
+</section>
 
-    <section class="glass fade-in">
-      <h2>Core Expertise</h2>
-      <div class="grid">
-        <div class="card">SOC Operations</div>
-        <div class="card">Threat Hunting</div>
-        <div class="card">Incident Response</div>
-        <div class="card">Digital Forensics</div>
-        <div class="card">SIEM (Splunk)</div>
-        <div class="card">Malware Analysis</div>
-      </div>
-    </section>
-</div>
+<section class="glass contact-section">
+  <h2>Contact</h2>
+  <div class="contact-grid">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="script.js"></script>
+    <a href="mailto:awedyan838@gmail.com" class="contact-card">
+      📧 Email
+    </a>
+
+    <a href="https://www.instagram.com/a._.h205" target="_blank" class="contact-card">
+      📸 Instagram
+    </a>
+
+    <a href="https://www.linkedin.com/in/ahmed-alwedyan-26542b2a9/" target="_blank" class="contact-card">
+      💼 LinkedIn
+    </a>
+
+    <a href="https://wa.me/962777764513" target="_blank" class="contact-card">
+      💬 WhatsApp
+    </a>
+
+  </div>
+</section>
+
+<footer>
+© 2026 Ahmed Alwedyan
+</footer>
+
+
 </body>
 </html>
