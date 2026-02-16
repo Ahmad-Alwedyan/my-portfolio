@@ -1,10 +1,10 @@
-baseURL = 'https://dfir-ahmed.me/' # ضع دومينك هنا لاحقاً
+baseURL = 'https://dfir-ahmed.me/' 
 languageCode = 'en-us'
 title = 'Ahmed Alwedyan | Cybersecurity Portfolio'
 theme = 'PaperMod'
 
 [params]
-    defaultTheme = "dark" # لأننا هكرز :)
+    defaultTheme = "dark"
     displayFullContent = false
     showShareButtons = true
     
