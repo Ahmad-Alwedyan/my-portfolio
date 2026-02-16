@@ -2,28 +2,28 @@ const roles = [
   "Blue Team Instructor",
   "Digital Forensics Specialist",
   "Incident Response Expert",
-  "Threat Detection Engineer"
+  "Threat Hunter"
 ];
 
 let i = 0;
 let j = 0;
 let current = "";
-let isDeleting = false;
+let deleting = false;
 
-function typeEffect() {
+function type() {
   current = roles[i];
   document.querySelector(".typing").textContent = current.substring(0, j);
 
-  if (!isDeleting && j < current.length) {
+  if (!deleting && j < current.length) {
     j++;
-  } else if (isDeleting && j > 0) {
+  } else if (deleting && j > 0) {
     j--;
   } else {
-    isDeleting = !isDeleting;
-    if (!isDeleting) i = (i + 1) % roles.length;
+    deleting = !deleting;
+    if (!deleting) i = (i + 1) % roles.length;
   }
 
-  setTimeout(typeEffect, 90);
+  setTimeout(type, 80);
 }
 
-typeEffect();
+type();
